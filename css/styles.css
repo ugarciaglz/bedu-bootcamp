@@ -1,13 +1,92 @@
-h2 {
-    color: #025157;
-  }
-
-  p {
-    color: #46484c;
- }
-
- body{
-    background-color: #FFF9F8;
+body{
+  font-family: "Alegreya", serif;
+  background-color: #fffbf7;
 }
 
-  
+h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #67b54b;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background: #025157;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background: #67b54b;
+}
+
+main {
+  text-align: center;
+}
